@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/inicio/favicon.png">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Formación continua | Cognivox Group</title>
+  <meta name="description" content="Formación continua en comunicación, aprendizaje y bienestar. Talleres, charlas y capacitaciones para familias, docentes y profesionales." />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+
+<header class="header-main">
+  <div class="container nav">
+    <a href="../index.html" aria-label="Ir a inicio">
+      <img src="../images/inicio/logo-empresa.png" alt="Logo Cognivox Group" class="logo--header" loading="eager" decoding="async"
+           onerror="this.src='https://via.placeholder.com/160x64?text=Logo';" />
+    </a>
+
+    <nav class="show-md" style="gap:.25rem;" aria-label="Navegación principal">
+      <a href="../index.html">Inicio</a>
+      <a href="../about.html">Nosotros</a>
+
+      <span class="dropdown" id="services">
+        <a href="#" id="servicesToggle" aria-haspopup="true" aria-expanded="false">Servicios▾</a>
+        <span class="dropdown-menu hidden" id="servicesMenu" role="menu" aria-label="Servicios">
+            <a href="./psicologia.html" role="menuitem">Psicología</a>
+            <a href="./logopedia.html" role="menuitem">Logopedia</a>
+            <a href="./psicomotricidad.html" role="menuitem">Psicomotricidad</a>
+            <a href="./educativo.html" role="menuitem">Acompañamiento educativo</a>
+          <a href="./formacion.html" class="active" aria-current="page" role="menuitem">Formación continua</a>
+        </span>
+      </span>
+
+      <a href="../blog.html">Blog</a>
+      <a href="../events.html">Eventos</a>
+      <a href="../multimedia.html">Multimedia</a>
+      <a href="../contact.html" class="btn-cita">Agende su cita</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn"
+        aria-label="Abrir menú"
+        aria-controls="mobilePanel"
+        aria-expanded="false"
+        type="button">☰</button>
+  </div>
+
+  <!-- ✅ PANEL BLANCO DEBAJO DEL HEADER (móvil/tablet) -->
+  <div class="mobile-panel hidden" id="mobilePanel">
+    <nav class="mobile-nav-links" aria-label="Navegación móvil">
+      <a href="../index.html">Inicio</a>
+      <a href="../about.html">Nosotros</a>
+
+      <button class="mobile-drop-btn" id="mServicesToggle"
+              type="button" aria-expanded="false"
+              aria-controls="mServicesMenu">
+        Servicios ▾
+      </button>
+
+      <div class="mobile-submenu hidden" id="mServicesMenu">
+        <a href="./psicologia.html">Psicología</a>
+        <a href="./logopedia.html">Logopedia</a>
+        <a href="./psicomotricidad.html">Psicomotricidad</a>
+        <a href="./educativo.html">Acompañamiento educativo</a>
+        <a href="./formacion.html">Formación continua</a>
+      </div>
+
+      <a href="../blog.html">Blog</a>
+      <a href="../events.html">Eventos</a>
+      <a href="../multimedia.html">Multimedia</a>
+      <a href="../contact.html" class="btn-cita">Agende su cita</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+  <section class="hero">
+      <div class="container" style="text-align:center;">
+        <img src="../images/services/hero-formacion.jpg" alt="formacion"
+             class="hero-formacion"
+             loading="eager" decoding="async"
+             onerror="this.src='https://via.placeholder.com/1600x500?text=formacion';" />
+        <h1 style="margin-top:2rem;">Formación continua</h1>
+        <p class="muted">Aprender para acompañar mejor</p>
+      </div>
+    </section>
+    
+  <section class="section">
+    <div class="container">
+      <p class="muted">Capacitación actualizada, práctica y aplicada para fortalecer tus competencias.</p>
+
+      <div class="grid grid-md-2" style="margin-top:1rem;">
+        <div class="card-formacion-1">
+          <h3>¿Qué ofrecemos?</h3>
+        <p>Ofrecemos programas de formación dirigidos a docentes y equipos educativos, orientados a 
+          fortalecer los procesos de enseñanza, aprendizaje y acompañamiento desde un enfoque científico, 
+          inclusivo y humano.
+        </p>
+        </div>
+
+        <div class="card-formacion-2">
+          <h3>Capacitación Docente</h3>
+          <p>Formación especializada para el diseño de prácticas educativas eficaces, alineadas con el 
+            enfoque por competencias y las necesidades reales del aula.
+          </p>
+          <!--
+          <h4>Áreas de capacitación:</h4>
+          <ul class="lista-formacion">
+            <li>Planificación por competencias: diseño de secuencias didácticas claras, flexibles y contextualizadas.</li>
+            <li>Evaluación por competencias: estrategias de evaluación formativa, auténtica y continua centradas en el desempeño del estudiante.</li>
+          </ul>
+          -->
+        </div>
+      </div>
+
+      <div class="card-modalidad" style="margin-top:1rem;">
+        <h3>Modalidades</h3>
+        <p>Presencial u online, individual o grupal. También diseñamos programas a la medida para centros educativos e instituciones.</p>
+        <p><a class="btn" href="../contact.html">Agende su cita →</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container grid grid-md-2" style="gap:2rem;">
+    <div>
+      <img src="../images/inicio/Logo-empresa-footer.png"
+           alt="Logo Cognivox Group"
+           class="logo logo--footer"
+           loading="lazy"
+           decoding="async"
+           onerror="this.src='https://via.placeholder.com/160x56?text=Logo';" />
+    </div>
+    <div>
+      <h4>Contacto</h4>
+      <p>Avenida independencia Km 9 ½ de la Carretera Sánchez, Edificio Corimar, ll Suite 3-D, Santo Domingo, Distrito Nacional.</p>
+      <p><a href="https://wa.me/18495851999?text=Hola%20Cognivox%20Group,%20me%20gustar%C3%ADa%20agendar%20una%20cita." target="_blank" rel="noopener noreferrer">+1 (849) 585-1999</a> 
+          <!--· <a href="email">email</a></p> -->
+      <hr class="soft" />
+      <small>© <span id="y"></span> Cognivox Group. Todos los derechos reservados.</small>
+      <p>Sitio web desarrollado por Christdavid Adames Tolentino.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="../script.js"></script>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>

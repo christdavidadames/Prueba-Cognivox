@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/inicio/favicon.png">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Logopedia – Cognivox Group</title>
+  <meta name="description" content="Servicios de logopedia en Cognivox Group: evaluación, terapia del habla, lenguaje, voz, deglución y terapia miofuncional." />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header-main">
+    <div class="container nav">
+      <a href="../index.html" aria-label="Ir a inicio">
+        <img src="../images/inicio/logo-empresa.png" alt="Logo Cognivox Group" class="logo--header"
+             loading="eager" decoding="async"
+             onerror="this.src='https://via.placeholder.com/160x64?text=Logo';" />
+      </a>
+
+      <nav class="show-md" style="gap:.25rem;" aria-label="Navegación principal">
+        <a href="../index.html">Inicio</a>
+        <a href="../about.html">Nosotros</a>
+
+        <span class="dropdown" id="services">
+          <a href="#" id="servicesToggle" aria-haspopup="true" aria-expanded="false">Servicios▾</a>
+          <span class="dropdown-menu hidden" id="servicesMenu" role="menu" aria-label="Servicios">
+            <a href="./psicologia.html" role="menuitem">Psicología</a>
+            <a href="./logopedia.html" class="active" aria-current="page" role="menuitem">Logopedia</a>
+            <a href="./psicomotricidad.html" role="menuitem">Psicomotricidad</a>
+            <a href="./educativo.html" role="menuitem">Acompañamiento educativo</a>
+            <a href="./formacion.html" role="menuitem">Formación continua</a>
+          </span>
+        </span>
+
+        <a href="../blog.html">Blog</a>
+        <a href="../events.html">Eventos</a>
+        <a href="../multimedia.html">Multimedia</a>
+        <a href="../contact.html" class="btn-cita">Agende su cita</a>
+      </nav>
+<button class="menu-btn" id="menuBtn"
+        aria-label="Abrir menú"
+        aria-controls="mobilePanel"
+        aria-expanded="false"
+        type="button">☰</button>
+    </div>
+
+    <!-- ✅ PANEL BLANCO DEBAJO DEL HEADER (móvil/tablet) -->
+  <div class="mobile-panel hidden" id="mobilePanel">
+    <nav class="mobile-nav-links" aria-label="Navegación móvil">
+      <a href="../index.html">Inicio</a>
+      <a href="../about.html">Nosotros</a>
+
+      <button class="mobile-drop-btn" id="mServicesToggle"
+              type="button" aria-expanded="false"
+              aria-controls="mServicesMenu">
+        Servicios ▾
+      </button>
+
+      <div class="mobile-submenu hidden" id="mServicesMenu">
+        <a href="./psicologia.html">Psicología</a>
+        <a href="./logopedia.html">Logopedia</a>
+        <a href="./psicomotricidad.html">Psicomotricidad</a>
+        <a href="./educativo.html">Acompañamiento educativo</a>
+        <a href="./formacion.html">Formación continua</a>
+      </div>
+
+      <a href="../blog.html">Blog</a>
+      <a href="../events.html">Eventos</a>
+      <a href="../multimedia.html">Multimedia</a>
+      <a href="../contact.html" class="btn-cita">Agende su cita</a>
+    </nav>
+  </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero">
+      <div class="container" style="text-align:center;">
+        <img src="../images/services/hero-logopedia.jpg" alt="Logopedia"
+             class="hero-logopedia"
+             loading="eager" decoding="async"
+             onerror="this.src='https://via.placeholder.com/1600x500?text=Logopedia';" />
+        <h1 style="margin-top:1rem;">Logopedia</h1>
+        <p class="muted">Dando voz a cada historia.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Nuestros Servicios</h2>
+        <p class="muted">Atención clara, cercana y especializada para tu comunicación.</p>
+
+        <div class="grid grid-3" style="margin-top:1rem;">
+          <article class="card-logopedia-1">
+            <h4>Evaluación y Diagnóstico Logopédico</h4>
+            <p>Valoración integral para identificar el origen y alcance de las dificultades 
+              comunicativas y funcionales, y establecer un plan de intervención personalizado.
+            </p>
+            <ul class="lista-logopedia">
+              <li>Lenguaje Oral</li>
+              <li>Habla y articulación</li>
+              <li>Voz</li>
+              <li>Funciones orofaciales y deglución</li>
+              <li>Comunicación funcional</li>
+            </ul>
+          </article>
+
+          <article class="card-logopedia-1">
+            <h4>Terapia del lenguaje</h4>
+            <p>Intervención orientada a mejorar la comprensión y la expresión del lenguaje, 
+              favoreciendo una comunicación funcional y efectiva.
+            </p>
+            <ul class="lista-logopedia">
+              <li>Lenguaje oral</li>
+              <li>Estimulación del lenguaje en edades tempranas</li>
+              <li>Dificultades del desarrollo del lenguaje</li>
+            </ul>
+          </article>
+
+          <article class="card-logopedia-1">
+            <h4>Terapia del habla</h4>
+            <p>Tratamiento de las alteraciones en la producción del habla y la fluidez, 
+              promoviendo una articulación clara y eficaz.
+            </p>
+            <ul class="lista-logopedia">
+              <li>Articulación y pronunciación</li>
+              <li>Trastornos de la fluidez (tartamudez)</li>
+            </ul>
+          </article>
+
+          <article class="card-logopedia-2">
+            <h4>Terapia de la voz</h4>
+            <p>Rehabilitación vocal orientada a mejorar el tono, el volumen y la calidad de 
+              la voz, así como a prevenir y tratar disfonías.
+            </p>
+              <ul class="lista-logopedia">
+              <li>Disfonías funcionales y orgánicas</li>
+              <li>Reeducación e higiene vocal</li>
+            </ul>  
+          </article>
+
+          <article class="card-logopedia-2">
+            <h4>Terapia Miofuncional Orofacial</h4>
+            <p>Intervención en los desequilibrios orofaciales que afectan el habla, la 
+              respiración, la masticación y la deglución.
+            </p>
+              <ul class="lista-logopedia">
+              <li>Deglución atípica</li>
+              <li>Respiración oral</li>
+              <li>Funciones orales alteradas</li>
+            </ul> 
+          </article>
+
+          <article class="card-logopedia-2">
+            <h4>Trastornos de la Deglución y la Alimentación</h4>
+            <p>Abordaje terapéutico de la disfagia y otros trastornos de la 
+              alimentación, orientado a mejorar la seguridad y funcionalidad.
+            </p>
+             <ul class="lista-logopedia">
+              <li>Disfagia infantil y adulta</li>
+              <li>Dificultades en la alimentación</li>
+             </ul>
+          </article>
+          
+          <article class="card-logopedia-3">
+            <h4>Comunicación Funcional</h4>
+            <p>Intervención orientada al desarrollo de habilidades comunicativas y 
+              sociales, favoreciendo la interacción efectiva en distintos contextos.
+            </p>
+             <ul class="lista-logopedia">
+              <li>Habilidades comunicativas</li>
+              <li>Comunicación social y pragmática</li>
+              <li>Apoyos a la comunicación</li>
+             </ul>
+          </article>
+        <div class="card-modalidad" style="margin-top:1rem;">
+        <p><a class="btn" href="../contact.html">Agende su cita →</a></p>
+      </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container grid grid-md-2" style="gap:2rem;">
+      <div>
+        <img src="../images/inicio/Logo-empresa-footer.png" alt="Logo Cognivox Group" class="logo logo--footer"
+             loading="lazy" decoding="async"
+             onerror="this.src='https://via.placeholder.com/160x56?text=Logo';" />
+      </div>
+
+      <div>
+        <h4>Contacto</h4>
+        <p>Avenida independencia Km 9 ½ de la Carretera Sánchez, Edificio Corimar, ll Suite 3-D, Santo Domingo, Distrito Nacional.</p>
+        <p><a href="https://wa.me/18495851999?text=Hola%20Cognivox%20Group,%20me%20gustar%C3%ADa%20agendar%20una%20cita." target="_blank" rel="noopener noreferrer">+1 (849) 585-1999</a> 
+          <!--· <a href="email">email</a></p> -->
+        <hr class="soft" />
+        <small>© <span id="y"></span> Cognivox Group. Todos los derechos reservados.</small>
+        <p>Sitio web desarrollado por Christdavid Adames Tolentino.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
