@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/inicio/favicon.png">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Galería Multimedia – Cognivox Group</title>
+  <meta name="description" content="Galería multimedia de Cognivox Group: videos sobre logopedia, psicología y bienestar." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header-main">
+    <div class="container nav">
+      <a href="./index.html" aria-label="Ir a inicio">
+        <img src="./images/inicio/logo-empresa.png" alt="Logo Cognivox Group" class="logo--header"
+             loading="eager" decoding="async"
+             onerror="this.src='https://via.placeholder.com/160x64?text=Logo';" />
+      </a>
+
+      <nav class="show-md" style="gap:.25rem;" aria-label="Navegación principal">
+        <a href="./index.html">Inicio</a>
+        <a href="./about.html">Nosotros</a>
+
+        <span class="dropdown" id="services">
+          <a href="#" id="servicesToggle" aria-haspopup="true" aria-expanded="false">Servicios▾</a>
+          <span class="dropdown-menu hidden" id="servicesMenu" role="menu" aria-label="Servicios">
+            <a href="./services/psicologia.html" role="menuitem">Psicología</a>
+            <a href="./services/logopedia.html" role="menuitem">Logopedia</a>
+            <a href="./services/psicomotricidad.html" role="menuitem">Psicomotricidad</a>
+            <a href="./services/educativo.html" role="menuitem">Acompañamiento educativo</a>
+            <a href="./services/formacion.html" role="menuitem">Formación continua</a>
+          </span>
+        </span>
+
+        <a href="./blog.html">Blog</a>
+        <a href="./events.html">Eventos</a>
+        <a href="./multimedia.html" class="active" aria-current="page">Multimedia</a>
+        <a href="./contact.html" class="btn-cita">Agende su cita</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn"
+        aria-label="Abrir menú"
+        aria-controls="mobilePanel"
+        aria-expanded="false"
+        type="button">☰</button>
+    </div>
+
+         <!-- ✅ PANEL BLANCO DEBAJO DEL HEADER (móvil/tablet) -->
+  <div class="mobile-panel hidden" id="mobilePanel">
+    <nav class="mobile-nav-links" aria-label="Navegación móvil">
+      <a href="./index.html">Inicio</a>
+      <a href="./about.html">Nosotros</a>
+
+      <button class="mobile-drop-btn" id="mServicesToggle"
+              type="button" aria-expanded="false"
+              aria-controls="mServicesMenu">
+        Servicios ▾
+      </button>
+
+      <div class="mobile-submenu hidden" id="mServicesMenu">
+        <a href="./services/psicologia.html">Psicología</a>
+        <a href="./services/logopedia.html">Logopedia</a>
+        <a href="./services/psicomotricidad.html">Psicomotricidad</a>
+        <a href="./services/educativo.html">Acompañamiento educativo</a>
+        <a href="./services/formacion.html">Formación continua</a>
+      </div>
+
+      <a href="./blog.html">Blog</a>
+      <a href="./events.html">Eventos</a>
+      <a href="./multimedia.html">Multimedia</a>
+      <a href="./contact.html" class="btn-cita">Agende su cita</a>
+    </nav>
+  </div>
+  </header>
+
+  <main id="contenido">
+    <!-- Hero -->
+    <section class="section section--compact2">
+      <div class="container">
+        <h1>Galería Multimedia</h1>
+        <p class="muted">Videos sobre logopedia, psicología y bienestar.</p>
+      </div>
+    </section>
+
+    <!-- Grid de videos (YouTube embed) -->
+    <section class="section" aria-label="Galería de videos">
+      <div class="container">
+        <div class="grid grid-3" style="gap:1.25rem;">
+
+          <!-- Video 1 -->
+          <article class="card" aria-label="Video: Introducción a la Logopedia">
+            <div style="position:relative;width:100%;padding-top:56.25%;overflow:hidden;border-radius:12px;">
+              <iframe
+                src="https://www.youtube.com/embed/VIDEO_ID_1"
+                title="Introducción a la Logopedia"
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+                style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h4 style="margin-top:.75rem;">Introducción a la Logopedia</h4>
+            <p class="muted">Logopedia</p>
+          </article>
+
+          <!-- Video 2 -->
+          <article class="card" aria-label="Video: Manejando la Ansiedad Infantil">
+            <div style="position:relative;width:100%;padding-top:56.25%;overflow:hidden;border-radius:12px;">
+              <iframe
+                src="https://www.youtube.com/embed/VIDEO_ID_2"
+                title="Manejando la Ansiedad Infantil"
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+                style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h4 style="margin-top:.75rem;">Manejando la Ansiedad Infantil</h4>
+            <p class="muted">Psicología</p>
+          </article>
+
+          <!-- Video 3 -->
+          <article class="card" aria-label="Video: Ejercicios de Voz para Docentes">
+            <div style="position:relative;width:100%;padding-top:56.25%;overflow:hidden;border-radius:12px;">
+              <iframe
+                src="https://www.youtube.com/embed/VIDEO_ID_3"
+                title="Ejercicios de Voz para Docentes"
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+                style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h4 style="margin-top:.75rem;">Ejercicios de Voz para Docentes</h4>
+            <p class="muted">Logopedia</p>
+          </article>
+
+          <!-- Video 4 -->
+          <article class="card" aria-label="Video: Comunicación Efectiva en Pareja">
+            <div style="position:relative;width:100%;padding-top:56.25%;overflow:hidden;border-radius:12px;">
+              <iframe
+                src="https://www.youtube.com/embed/VIDEO_ID_4"
+                title="Comunicación Efectiva en Pareja"
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+                style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h4 style="margin-top:.75rem;">Comunicación Efectiva en Pareja</h4>
+            <p class="muted">Psicología</p>
+          </article>
+
+          <!-- Video 5 -->
+          <article class="card" aria-label="Video: ¿Qué es la Terapia Miofuncional?">
+            <div style="position:relative;width:100%;padding-top:56.25%;overflow:hidden;border-radius:12px;">
+              <iframe
+                src="https://www.youtube.com/embed/VIDEO_ID_5"
+                title="¿Qué es la Terapia Miofuncional?"
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+                style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h4 style="margin-top:.75rem;">¿Qué es la Terapia Miofuncional?</h4>
+            <p class="muted">Logopedia</p>
+          </article>
+
+          <!-- Video 6 -->
+          <article class="card" aria-label="Video: Mindfulness para el Día a Día">
+            <div style="position:relative;width:100%;padding-top:56.25%;overflow:hidden;border-radius:12px;">
+              <iframe
+                src="https://www.youtube.com/embed/VIDEO_ID_6"
+                title="Mindfulness para el Día a Día"
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+                style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h4 style="margin-top:.75rem;">Mindfulness para el Día a Día</h4>
+            <p class="muted">Psicología</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container grid grid-md-2" style="gap:2rem;">
+      <div>
+        <img src="./images/inicio/Logo-empresa-footer.png" alt="Logo Cognivox Group" class="logo logo--footer"
+             loading="lazy" decoding="async"
+             onerror="this.src='https://via.placeholder.com/160x56?text=Logo';" />
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <p>Avenida independencia Km 9 ½ de la Carretera Sánchez, Edificio Corimar, ll Suite 3-D, Santo Domingo, Distrito Nacional.</p>
+        <p><a href="https://wa.me/18495851999?text=Hola%20Cognivox%20Group,%20me%20gustar%C3%ADa%20agendar%20una%20cita." target="_blank" rel="noopener noreferrer">+1 (849) 585-1999</a> 
+          <!--· <a href="email">email</a></p> -->
+        <hr class="soft" />
+        <small>© <span id="y"></span> Cognivox Group. Todos los derechos reservados.</small>
+        <p>Sitio web desarrollado por Christdavid Adames Tolentino.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>

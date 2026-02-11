@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/inicio/favicon.png">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contacto y Citas – Cognivox Group</title>
+  <meta name="description" content="Contáctanos para agendar tu cita en Cognivox Group. Atención segura y confidencial en logopedia y psicología." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header-main">
+    <div class="container nav">
+      <a href="./index.html" aria-label="Ir a inicio">
+        <img src="./images/inicio/logo-empresa.png" alt="Logo Cognivox Group" class="logo--header"
+             loading="eager" decoding="async"
+             onerror="this.src='https://via.placeholder.com/160x64?text=Logo';" />
+      </a>
+
+      <nav class="show-md" style="gap:.25rem;" aria-label="Navegación principal">
+        <a href="./index.html">Inicio</a>
+        <a href="./about.html">Nosotros</a>
+
+        <span class="dropdown" id="services">
+          <a href="#" id="servicesToggle" aria-haspopup="true" aria-expanded="false">Servicios▾</a>
+          <span class="dropdown-menu hidden" id="servicesMenu" role="menu" aria-label="Servicios">
+            <a href="./services/psicologia.html" role="menuitem">Psicología</a>
+            <a href="./services/logopedia.html" role="menuitem">Logopedia</a>
+            <a href="./services/psicomotricidad.html" role="menuitem">Psicomotricidad</a>
+            <a href="./services/educativo.html" role="menuitem">Acompañamiento educativo</a>
+            <a href="./services/formacion.html" role="menuitem">Formación continua</a>
+          </span>
+        </span>
+
+        <a href="./blog.html">Blog</a>
+        <a href="./events.html">Eventos</a>
+        <a href="./multimedia.html">Multimedia</a>
+        <a href="./contact.html" class="btn-cita active" aria-current="page">Agende su cita</a>
+      </nav>
+<button class="menu-btn" id="menuBtn"
+        aria-label="Abrir menú"
+        aria-controls="mobilePanel"
+        aria-expanded="false"
+        type="button">☰</button>
+    </div>
+    
+    <!-- ✅ PANEL BLANCO DEBAJO DEL HEADER (móvil/tablet) -->
+  <div class="mobile-panel hidden" id="mobilePanel">
+    <nav class="mobile-nav-links" aria-label="Navegación móvil">
+      <a href="./index.html">Inicio</a>
+      <a href="./about.html">Nosotros</a>
+
+      <button class="mobile-drop-btn" id="mServicesToggle"
+              type="button" aria-expanded="false"
+              aria-controls="mServicesMenu">
+        Servicios ▾
+      </button>
+
+      <div class="mobile-submenu hidden" id="mServicesMenu">
+        <a href="./services/psicologia.html">Psicología</a>
+        <a href="./services/logopedia.html">Logopedia</a>
+        <a href="./services/psicomotricidad.html">Psicomotricidad</a>
+        <a href="./services/educativo.html">Acompañamiento educativo</a>
+        <a href="./services/formacion.html">Formación continua</a>
+      </div>
+
+      <a href="./blog.html">Blog</a>
+      <a href="./events.html">Eventos</a>
+      <a href="./multimedia.html">Multimedia</a>
+      <a href="./contact.html" class="btn-cita">Agende su cita</a>
+    </nav>
+  </div>
+  </header>
+
+  <main id="contenido">
+    <section class="section section--compact1">
+      <div class="container">
+        <h1>Contacto y citas</h1>
+        <p class="muted">Estamos aquí para ayudarte.</p>
+      </div>
+    </section>
+
+    <!-- Información -->
+    <section class="section" aria-label="Información de contacto">
+      <div class="container grid grid-md-2" style="gap:0.5rem;">
+        <div class="card">
+          <h3>Información de contacto</h3>
+          <p class="muted">Escríbenos o llámanos para agendar tu primera cita.</p>
+
+          <ul style="list-style:none;padding:0;margin:1rem 0;display:grid;gap:.5rem;">
+            <li><strong>Dirección:</strong> Avenida independencia Km 9 ½ de la Carretera Sánchez, Edificio Corimar, ll Suite 3-D, Santo Domingo, Distrito Nacional</li>
+            <li><strong>Tel:</strong> <a href="https://wa.me/18495851999?text=Hola%20Cognivox%20Group,%20me%20gustar%C3%ADa%20agendar%20una%20cita." target="_blank" rel="noopener noreferrer">+1 (849) 585-1999</a></li>
+            <!-- <li><strong>Email:</strong> <a href="mailto:mtolentino41@uasd.edu.do">mtolentino41@uasd.edu.do</a></li> -->
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Horario de atención</h3>
+          <ul style="list-style:none;padding:0;margin:1rem 0;display:grid;gap:.5rem;">
+            <li>Lunes a Viernes: 9:00 – 18:00</li>
+            <li>Sábados: 9:00 – 13:00</li>
+          </ul>
+          <hr class="soft" />
+          <p class="muted">Atención segura y confidencial.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WhatsApp CTA (lo dejo igual, solo pulido mínimo) -->
+    <section class="section" aria-label="Contacto por WhatsApp">
+      <div class="container" style="text-align:center;">
+        <h2>¿Tienes alguna pregunta?</h2>
+        <p class="muted">Contáctanos directamente por WhatsApp para una respuesta más rápida.</p>
+
+        <a
+          href="https://wa.me/18495851999?text=Hola%20Cognivox%20Group,%20me%20gustar%C3%ADa%20agendar%20una%20cita."
+          class="btn"
+          target="_blank"
+          rel="noopener"
+        >Chatea con nosotros en WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container grid grid-md-2" style="gap:2rem;">
+      <div>
+        <img src="./images/inicio/Logo-empresa-footer.png" alt="Logo Cognivox Group" class="logo logo--footer"
+             loading="lazy" decoding="async"
+             onerror="this.src='https://via.placeholder.com/160x56?text=Logo';" />
+      </div>
+
+      <div>
+        <h4>Contacto</h4>
+        <p>Avenida independencia Km 9 ½ de la Carretera Sánchez, Edificio Corimar, ll Suite 3-D, Santo Domingo, Distrito Nacional.</p>
+        <p><a href="https://wa.me/18495851999?text=Hola%20Cognivox%20Group,%20me%20gustar%C3%ADa%20agendar%20una%20cita." target="_blank" rel="noopener noreferrer">+1 (849) 585-1999</a> 
+          <!--· <a href="email">email</a></p> -->
+        <hr class="soft" />
+        <small>© <span id="y"></span> Cognivox Group. Todos los derechos reservados.</small>
+        <p>Sitio web desarrollado por Christdavid Adames Tolentino.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
