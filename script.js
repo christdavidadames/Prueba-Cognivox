@@ -233,3 +233,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   setTimeout(showNext, DISPLAY_MS);
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.querySelector(".btn-float-cita");
+  if (!btn) return;
+
+  setTimeout(() => {
+    btn.classList.add("is-visible");
+  }, 3000);
+});
