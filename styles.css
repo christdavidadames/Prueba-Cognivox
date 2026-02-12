@@ -318,10 +318,16 @@ a:hover { text-decoration: underline; }
 /* Botón flotante: fijo abajo a la derecha */
 .btn-float-cita{
   position: fixed;
-  right: 30px;
-  bottom: 30px;
+  right: 16px;
+  bottom: 16px;
   z-index: 9999;
   box-shadow: 0 10px 30px rgba(0,0,0,.18);
+
+  font-size: 18px;
+  padding: 14px 22px;
+  border-radius: 14px;
+  min-width: 180px;
+  text-align: center;
 
   /* Oculto al cargar */
   opacity: 0;
@@ -1200,4 +1206,5 @@ a:hover { text-decoration: underline; }
   }
  }
 }
+
 
