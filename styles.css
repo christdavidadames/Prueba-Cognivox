@@ -315,6 +315,33 @@ a:hover { text-decoration: underline; }
   transform: scale(1.03);
 }
 
+/* Botón flotante: fijo abajo a la derecha */
+.btn-float-cita{
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 9999;
+  box-shadow: 0 10px 30px rgba(0,0,0,.18);
+
+  /* Oculto al cargar */
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  /* Animación de entrada */
+  transform: translateX(10px) translateY(10px);
+  transition: opacity .35s ease, transform .35s ease, visibility 0s linear .35s;
+}
+
+/* Visible cuando se activa */
+.btn-float-cita.is-visible{
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(0) translateY(0);
+  transition: opacity .35s ease, transform .35s ease, visibility 0s;
+}
+
 /* =========================================================
    3) HERO (BASE: móvil-first)
    ========================================================= */
