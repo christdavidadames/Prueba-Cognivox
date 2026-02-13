@@ -780,6 +780,57 @@ a:hover { text-decoration: underline; }
 }
 
 /* =========================================================
+   ABOUT – Equipo (info-block-2)
+   ========================================================= */
+
+/* Crea la grilla de 2 columnas (tu HTML usa: class="grid grid-2") */
+.grid-about{
+  grid-template-columns: 1fr;          /* móvil: 1 columna */
+  justify-items: center;               /* centra los cards dentro de la grilla */
+  align-items: stretch;
+}
+
+/* Desktop / tablet: 2 columnas */
+@media (min-width: 768px){
+  .grid-about{
+    grid-template-columns: repeat(2, minmax(0, 420px)); /* columnas más “contenidas” */
+    justify-content: center;                            /* centra el bloque completo */
+    column-gap: 1.25rem;
+    row-gap: 1.25rem;
+  }
+}
+
+/* Reduce tamaño de los cards del equipo */
+.info-block-2{
+  width: 100%;
+  max-width: 420px;        /* controla qué tan grandes se ven */
+  padding: 1rem;           /* menos padding para que no se vean gigantes */
+  border-radius: 18px;
+}
+
+/* Centra la imagen del team dentro del card */
+.info-block-2 .img-about{
+  display: block;
+  margin: 0 auto 0.75rem;  /* centrada + espacio abajo */
+}
+
+/* Foto circular (estilo “avatar”) */
+.img-about{
+  width: 110px;            /* ajusta si quieres más pequeño/grande */
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;       /* recorte bonito sin deformar */
+  border: 3px solid rgba(233,138,166,.85); /* borde suave con tu color */
+}
+
+/* (Opcional) bajar un poco el tamaño del nombre para que no se vea enorme */
+.info-block-2 h2{
+  font-size: 1.05rem;
+  line-height: 1.2;
+  margin: 0.35rem 0 0.25rem;
+}
+
+/* =========================================================
                   CARDS DEL SERVICIO PSICOLOGIA
    ========================================================= */
 
@@ -1218,6 +1269,3 @@ a:hover { text-decoration: underline; }
   }
  }
 }
-
-
-
