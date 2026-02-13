@@ -785,16 +785,16 @@ a:hover { text-decoration: underline; }
 
 /* Crea la grilla de 2 columnas (tu HTML usa: class="grid grid-2") */
 .grid-about{
-  grid-template-columns: 1fr;          /* móvil: 1 columna */
-  justify-items: center;               /* centra los cards dentro de la grilla */
+  grid-template-columns: 1fr;
+  justify-items: center;
   align-items: stretch;
 }
 
 /* Desktop / tablet: 2 columnas */
 @media (min-width: 768px){
   .grid-about{
-    grid-template-columns: repeat(2, minmax(0, 420px)); /* columnas más “contenidas” */
-    justify-content: center;                            /* centra el bloque completo */
+    grid-template-columns: repeat(2, minmax(0, 420px)); 
+    justify-content: center;
     column-gap: 1.25rem;
     row-gap: 1.25rem;
   }
@@ -803,24 +803,24 @@ a:hover { text-decoration: underline; }
 /* Reduce tamaño de los cards del equipo */
 .info-block-2{
   width: 100%;
-  max-width: 420px;        /* controla qué tan grandes se ven */
-  padding: 1rem;           /* menos padding para que no se vean gigantes */
+  max-width: 420px; 
+  padding: 1rem;
   border-radius: 18px;
 }
 
 /* Centra la imagen del team dentro del card */
 .info-block-2 .img-about{
   display: block;
-  margin: 0 auto 0.75rem;  /* centrada + espacio abajo */
+  margin: 0 auto 0.75rem;
 }
 
 /* Foto circular (estilo “avatar”) */
 .img-about{
-  width: 110px;            /* ajusta si quieres más pequeño/grande */
-  height: 110px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
-  object-fit: cover;       /* recorte bonito sin deformar */
-  border: 3px solid rgba(233,138,166,.85); /* borde suave con tu color */
+  object-fit: cover; 
+  border: 3px solid rgba(233,138,166,.85);
 }
 
 /* (Opcional) bajar un poco el tamaño del nombre para que no se vea enorme */
@@ -1269,3 +1269,4 @@ a:hover { text-decoration: underline; }
   }
  }
 }
+
