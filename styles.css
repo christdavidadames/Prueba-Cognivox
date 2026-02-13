@@ -717,9 +717,21 @@ a:hover { text-decoration: underline; }
   border: 2px solid var(--pink);
 }
 
-.info-block p,
-.info-block li,
-.info-block strong{
+.info-block-2 p,
+.info-block-2 li,
+.info-block-2 strong{
+  color: #fff;
+}
+
+.info-block-2{
+  background: var(--blue-dark);
+  color: #fff;
+  border: 2px solid var(--pink);
+}
+
+.info-block-2 p,
+.info-block-2 li,
+.info-block-2 strong{
   color: #fff;
 }
 
@@ -1206,5 +1218,6 @@ a:hover { text-decoration: underline; }
   }
  }
 }
+
 
 
