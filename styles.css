@@ -819,7 +819,8 @@ a:hover { text-decoration: underline; }
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  object-fit: cover; 
+  object-fit: cover;
+  object-position: center 30%;
   border: 3px solid rgba(233,138,166,.85);
 }
 
@@ -1269,4 +1270,3 @@ a:hover { text-decoration: underline; }
   }
  }
 }
-
