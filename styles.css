@@ -721,6 +721,7 @@ a:hover { text-decoration: underline; }
 .info-block-2 li,
 .info-block-2 strong{
 color: var(--text);
+margin: 0.35rem 0;
 }
 
 .info-block-2{
@@ -1272,4 +1273,5 @@ color: var(--text);
   }
  }
 }
+
 
