@@ -816,8 +816,8 @@ a:hover { text-decoration: underline; }
 
 /* Foto circular (estilo “avatar”) */
 .img-about{
-  width: 120px;
-  height: 120px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center 30%;
@@ -1270,3 +1270,4 @@ a:hover { text-decoration: underline; }
   }
  }
 }
+
